@@ -1,0 +1,33 @@
+*{
+    background-color: azure;
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 100px;
+}
+.cuadro{
+    width: 150px;
+    height: 150px;
+    background-color: lightgreen;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one-part{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.two-part{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.three-part{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
